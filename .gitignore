@@ -1,2 +1,5 @@
 # Project exclude paths
 /target/
+/gym-api/
+/.idea/
+/src/main/resources/intro.csv

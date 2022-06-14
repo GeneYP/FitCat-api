@@ -15,7 +15,7 @@ spring:
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/fc?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=utf8&allowMultiQueries=true
     username: root
-    password: chen123456
+    password: yourmysqlpassword
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
@@ -56,10 +56,10 @@ mybatis-plus:
 swagger:
   show: true
 qiniu:
-  domain: http://cdn.gene-yp.com/
-  accessKey: RpJofkYU-hvJ5eJ226U0E_hQUztI8Oq3b6mX_3-U
-  secretKey: q_vES3_vuaC8LHuluIlxlvmXnF9YCjQszaPYlSac
-  bucket: fit-cat
+  domain: pleaseaddyourdomain
+  accessKey: pleaseaddyourkey
+  secretKey: pleaseaddyourkey
+  bucket: pleaseaddyourbucket
 
 jwt:
   issuer: gym-system
