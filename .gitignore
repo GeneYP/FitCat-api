@@ -3,3 +3,4 @@
 /gym-api/
 /.idea/
 /src/main/resources/intro.csv
+/src/main/resources/application.yml
